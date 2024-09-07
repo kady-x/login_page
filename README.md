@@ -37,14 +37,14 @@
 
 علشان تشغل البرنامج محليًا، اتبع الخطوات دي.
 
-### المتطلبات المبدئية
+## المتطلبات المبدئية
 
 - Flutter SDK (الإصدار 3.5.1)
 - Dart SDK
 - حساب على Firebase
 - Android Studio أو Visual Studio Code
 
-### التثبيت
+## التثبيت
 
 1. **نسخ المستودع:**
 
@@ -67,9 +67,9 @@
    بعد تثبيت الاعتماديات، شغل التطبيق عن طريق:
    flutter run
 
-### الاستخدام
+## الاستخدام
 
-## نظام المصادقة (Auth)
+# نظام المصادقة (Auth)
 
 1. إنشاء حساب جديد:
    🔐 افتح التطبيق واختر "إنشاء حساب جديد".
@@ -88,14 +88,14 @@
    🔑 أدخل بيانات حسابك على فيسبوك إذا لزم الأمر.
    🎉 بعد نجاح العملية، ستحصل على إمكانية الدخول إلى التطبيق.
 
-### إعداد Firebase
+## إعداد Firebase
 
    1- قم بإنشاء مشروع جديد على Firebase Console.
    2- اتبع التعليمات لإعداد Firebase Authentication.
    3- أضف بيانات اعتماد Google و Facebook في إعدادات المصادقة.
    4- احصل على ملف google-services.json و GoogleService-Info.plist وقم بإضافتهم إلى المشروع.
 
-### الاعتماديات
+## الاعتماديات
 
   ```bash
   cupertino_icons: ^1.0.8
@@ -127,34 +127,34 @@
   cached_network_image: ^3.4.0
   ```
 
-### المساهمة
+## المساهمة
 
 أهلا وسهلا بأي مساهمات! لو عندك أي اقتراحات أو تعديلات، لا تتردد في فتح قضية على GitHub.
 
-### الرخصة
+## الرخصة
 
 هذا المشروع مرخص بموجب رخصة MIT، يمكنك استخدامه كما تشاء.
 
-### لقطات الشاشة
+## لقطات الشاشة
 
 <p align="center" class="scroll" >
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/1.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/2.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/3.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/4.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/5.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/6.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/7.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/8.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/9.jpeg" alt="App screen shot">
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
 </p>
 
