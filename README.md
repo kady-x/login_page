@@ -137,8 +137,25 @@
 
 ### لقطات الشاشة
 
-Screenshot1
-
-Screenshot2
+<p align="center" class="scroll" >
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/1.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/2.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/3.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/4.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/5.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/6.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/7.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/8.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screen/9.jpeg" alt="App screen shot">
+     &nbsp;&nbsp;&nbsp;
+</p>
 
 إذا كنت بحاجة إلى مزيد من التفاصيل أو التعديلات، فلا تتردد في إخباري! 🌟
