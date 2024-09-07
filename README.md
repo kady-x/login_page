@@ -189,9 +189,7 @@ cached_network_image: ^3.4.0
 
 يمكنك العثور على أو تحميل النسخة المدعومة من التطبيق (APK) من الرابط التالي:
 
-```
-apk/login_page.apk
-```
+- [تحميل التطبيق](https://github.com/kady-x/login_page/blob/main/apk/app-release.apk)
 
 ---
 
