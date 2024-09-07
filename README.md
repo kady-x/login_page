@@ -138,23 +138,23 @@
 ## لقطات الشاشة
 
 <p align="center" class="scroll" >
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" alt="App screen shot">
+     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" alt="App screen shot">
      &nbsp;&nbsp;&nbsp;
 </p>
 
