@@ -297,7 +297,7 @@ class ProfileControllerImp extends ProfileController {
     services.sharedPreferences.setInt("google", 0);
     services.sharedPreferences.setInt("facebook", 0);
     Get.offAll(
-      const Profile(),
+      () => const Profile(),
       transition: Transition.size,
     );
     CustomSnackBarConfig.buildSnackBar(

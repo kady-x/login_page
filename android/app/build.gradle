@@ -26,6 +26,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -40,5 +41,7 @@ flutter {
 }
 
 dependencies {
+    implementation 'com.android.support:multidex:1.0.3' 
+    implementation 'com.google.firebase:firebase-perf:20.0.3'
     implementation 'com.google.firebase:firebase-appcheck-safetynet:16.0.0'
 }
