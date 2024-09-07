@@ -38,7 +38,7 @@
 
 علشان تشغل البرنامج محليًا، اتبع الخطوات دي.
 
-## المتطلبات المبدئية
+### المتطلبات المبدئية
 
 - Flutter SDK (الإصدار 3.5.1)
 - Dart SDK
@@ -62,61 +62,63 @@
    ```
 
    ثم شغل الأمر التالي لتثبيت الاعتماديات:
-   flutter pub get
 
-   تشغيل التطبيق:
-   بعد تثبيت الاعتماديات، شغل التطبيق عن طريق:
+   ```bash
+   flutter pub get
+   ```
+
+   لتشغيل التطبيق:
+
+   ```bash
    flutter run
+   ```
 
 ## الاستخدام
 
 ### نظام المصادقة (Auth)
 
-1. إنشاء حساب جديد:
-   🔐 افتح التطبيق واختر "إنشاء حساب جديد".
-   📝 أدخل بياناتك مثل الاسم، البريد الإلكتروني، وكلمة المرور.
-   ✅ اضغط على زر "تسجيل" لإنشاء الحساب.
+1. **إنشاء حساب جديد:**
+   🔐 افتح التطبيق واختر "إنشاء حساب جديد".  
+   📝 أدخل بياناتك مثل الاسم، البريد الإلكتروني، وكلمة المرور.  
+   ✅ اضغط على زر "تسجيل" لإنشاء الحساب.  
 
-2. الدخول بحساب جوجل:
+2. **الدخول بحساب جوجل:**
+   ☁️ افتح التطبيق واختر "تسجيل الدخول بحساب جوجل".  
+   📧 اختر حساب جوجل المطلوب من القائمة.  
+   ➡️ سيتم توجيهك إلى صفحة التطبيق بعد تسجيل الدخول بنجاح.  
 
-   ☁️ افتح التطبيق واختر "تسجيل الدخول بحساب جوجل".
-   📧 اختر حساب جوجل المطلوب من قائمة الحسابات المتاحة.
-   ➡️ سيتم توجيهك إلى صفحة التطبيق بعد تسجيل الدخول بنجاح.
-
-3. الدخول بحساب فيسبوك:
-
-   📘 افتح التطبيق واختر "تسجيل الدخول بحساب فيسبوك".
-   🔑 أدخل بيانات حسابك على فيسبوك إذا لزم الأمر.
-   🎉 بعد نجاح العملية، ستحصل على إمكانية الدخول إلى التطبيق.
+3. **الدخول بحساب فيسبوك:**
+   📘 افتح التطبيق واختر "تسجيل الدخول بحساب فيسبوك".  
+   🔑 أدخل بيانات حسابك على فيسبوك إذا لزم الأمر.  
+   🎉 بعد نجاح العملية، ستحصل على إمكانية الدخول إلى التطبيق.  
 
 ## إعداد Firebase
 
-   1- قم بإنشاء مشروع جديد على Firebase Console.
-   2- اتبع التعليمات لإعداد Firebase Authentication.
-   3- أضف بيانات اعتماد Google و Facebook في إعدادات المصادقة.
-   4- احصل على ملف google-services.json و GoogleService-Info.plist وقم بإضافتهم إلى المشروع.
+1. قم بإنشاء مشروع جديد على Firebase Console.
+2. اتبع التعليمات لإعداد Firebase Authentication.
+3. أضف بيانات اعتماد Google و Facebook في إعدادات المصادقة.
+4. احصل على ملفات `google-services.json` و `GoogleService-Info.plist` وأضفهم إلى المشروع.
 
 ## الاعتماديات
 
-  ```bash
-  cupertino_icons: ^1.0.8
-  get: ^4.6.6
-  http: ^1.2.2
-  lottie: ^3.1.2
-  dartz: ^0.10.1
-  shared_preferences: ^2.3.2
-  firebase_core: ^3.3.0
-  firebase_core_platform_interface: ^5.2.0
-  firebase_auth: ^5.1.4
-  google_sign_in: ^6.2.1
-  flutter_facebook_auth: ^7.0.1
-  path: ^1.9.0
-  image_picker: ^1.1.2
-  image_cropper: ^8.0.2
-  flutter_customs: ^0.0.28
-  otp_text_field: ^1.1.3
-  cached_network_image: ^3.4.0
-  ```
+```bash
+cupertino_icons: ^1.0.8
+get: ^4.6.6
+http: ^1.2.2
+lottie: ^3.1.2
+dartz: ^0.10.1
+shared_preferences: ^2.3.2
+firebase_core: ^3.3.0
+firebase_auth: ^5.1.4
+google_sign_in: ^6.2.1
+flutter_facebook_auth: ^7.0.1
+path: ^1.9.0
+image_picker: ^1.1.2
+image_cropper: ^8.0.2
+flutter_customs: ^0.0.28
+otp_text_field: ^1.1.3
+cached_network_image: ^3.4.0
+```
 
 ## المساهمة
 
@@ -128,25 +130,18 @@
 
 ## لقطات الشاشة
 
-<p align="center" class="scroll" >
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-     <img width="200px" src="https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" alt="App screen shot">
-     &nbsp;&nbsp;&nbsp;
-</p>
+![لقطة شاشة 1](https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg)
+![لقطة شاشة 2](https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg)
+![لقطة شاشة 3](https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg)
+![لقطة شاشة 4](https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg)
+![لقطة شاشة 5](https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg)
+![لقطة شاشة 6](https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg)
+![لقطة شاشة 7](https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg)
+![لقطة شاشة 8](https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg)
+![لقطة شاشة 9](https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg)
+
+## أهمية المشروع
+
+لقد كان هذا المشروع محط اهتمامي واهتمامي الكبير، حيث أنني ركزت على تطبيق مبادئ SOLID في كتابة الكود. أهدف من خلال هذا المشروع إلى تجديد مستواي في تطوير التطبيقات وتحسين مهاراتي التقنية. المشروع يمكن أن يكون نقطة انطلاق للتعلم والنمو، وأرحب بأي ملاحظات أو اقتراحات لتحسينه.
 
 إذا كنت بحاجة إلى مزيد من التفاصيل أو التعديلات، فلا تتردد في إخباري! 🌟
