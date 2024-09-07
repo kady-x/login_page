@@ -1,7 +1,6 @@
 import 'package:login_page/screens/auth/forgetpassword/forget.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:login_page/tools/customs/custom_snackbar.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import '../../../../../../tools/services/services.dart';
 import '../../../../../tools/design/color_panel.dart';
 import '../../../../../tools/routes/app_route.dart';
@@ -33,7 +32,6 @@ class LoginControllerImp extends LoginController {
     super.onInit();
     email = TextEditingController();
     password = TextEditingController();
-    FirebaseMessaging.instance.getToken();
   }
 
   @override
