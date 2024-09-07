@@ -103,24 +103,14 @@
   get: ^4.6.6
   http: ^1.2.2
   lottie: ^3.1.2
-  shimmer: ^3.0.0
   dartz: ^0.10.1
   shared_preferences: ^2.3.2
-  permission_handler: ^11.3.1
   firebase_core: ^3.3.0
   firebase_core_platform_interface: ^5.2.0
-  firebase_messaging: ^15.0.4
-  firebase_app_check: ^0.3.0+4
-  firebase_remote_config: ^5.0.4
-  firebase_performance: ^0.10.0+4
-  firebase_in_app_messaging: ^0.8.0+4
   firebase_auth: ^5.1.4
   google_sign_in: ^6.2.1
   flutter_facebook_auth: ^7.0.1
-  package_info_plus: ^8.0.2
-  esys_flutter_share_plus: ^2.2.0
   path: ^1.9.0
-  change_app_package_name: ^1.3.0
   image_picker: ^1.1.2
   image_cropper: ^8.0.2
   flutter_customs: ^0.0.28
