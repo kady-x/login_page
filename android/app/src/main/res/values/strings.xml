@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test</string>
+    <string name="facebook_app_id">483228671254879</string>
+    <string name="fb_login_protocol_scheme">9453911e33c9282b3dae1dab4713587d</string>
+    <string name="facebook_client_token">0076d95362f4ebeae12142218c4e7674</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>
