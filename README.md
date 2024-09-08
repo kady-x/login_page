@@ -175,7 +175,8 @@ cached_network_image: ^3.4.0
 
 ## لقطات الشاشة
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2>لقطات الشاشة</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
   <div style="text-align: center;">
     <strong>الواجهة الرئيسية</strong><br>
     <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" width="200"/>
