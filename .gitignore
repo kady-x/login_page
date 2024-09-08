@@ -44,3 +44,4 @@ app.*.map.json
 
 firebase_options.dart
 firebase.json
+android/app/src/main/res/values/strings.xml
