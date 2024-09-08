@@ -2,9 +2,9 @@
 
 ## Login Page
 
-## المشروع ده من تصميم (محمد القاضي)
+## المشروع من تصميم (محمد القاضي)
 
-ده مشروع Flutter لعملية تسجيل الدخول والتسجيل للمستخدمين، واستخدمت Firebase كخدمة خلفية. البرنامج بيقدم 3 طرق للتسجيل:
+هذا مشروع Flutter لعملية تسجيل الدخول والتسجيل للمستخدمين، باستخدام Firebase كخدمة خلفية. البرنامج بيقدم 3 طرق للتسجيل:
 
 - إنشاء حساب جديد.
 - الدخول بحساب جوجل.
@@ -37,7 +37,7 @@
 
 ## البدء
 
-علشان تشغل البرنامج محليًا، اتبع الخطوات دي.
+لتشغيل البرنامج محليًا، اتبع الخطوات التالية:
 
 ### المتطلبات المبدئية
 
@@ -56,7 +56,7 @@
 
 2. **تثبيت الاعتماديات:**
 
-   بعد ما تنسخ المشروع، انتقل إلى مجلد المشروع:
+   بعد نسخ المشروع، انتقل إلى مجلد المشروع:
 
    ```bash
    cd login_page
@@ -100,6 +100,50 @@
 3. أضف بيانات اعتماد Google و Facebook في إعدادات المصادقة.
 4. احصل على ملفات `google-services.json` و `GoogleService-Info.plist` وأضفهم إلى المشروع.
 
+### إعداد Firebase CLI
+
+لتشغيل التطبيق بشكل صحيح، يجب عليك تشغيل Firebase CLI أولاً وتثبيت Firebase في مشروعك باستخدام الأوامر التالية:
+
+```bash
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
+
+### إعداد تطبيق فيسبوك
+
+يجب عليك إنشاء تطبيق جديد كـ Consumer في Meta for Developers، ثم إعداد التطبيق في ملف `AndroidManifest.xml` بإضافة الكود التالي:
+
+```xml
+<meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+<meta-data android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+<activity android:name="com.facebook.FacebookActivity"
+          android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+          android:label="@string/app_name" />
+<activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+    <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="@string/fb_login_protocol_scheme" />
+    </intent-filter>
+</activity>
+```
+
+أضف أيضًا الملف التالي داخل مجلد `res/values` كملف `strings.xml`:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test</string>
+    <string name="facebook_app_id">Placeholder for Facebook App ID</string>
+    <string name="fb_login_protocol_scheme">Placeholder for FB Login Protocol Scheme</string>
+    <string name="facebook_client_token">Placeholder for Facebook Client Token</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>
+```
+
 ## الاعتماديات
 
 ```bash
@@ -131,55 +175,39 @@ cached_network_image: ^3.4.0
 
 ## لقطات الشاشة
 
-<p align="center" class="scroll" >
+<p align="center" class="scroll">
 
 ### واجهة المستخدم الرئيسية
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="واجهة المستخدم الرئيسية" width="200"/>
 
----
-
 ### واجهة تسجيل الدخول
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" alt="تسجيل الدخول" width="200"/>
-
----
 
 ### واجهة تسجيل حساب جديد
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" alt="تسجيل حساب جديد" width="200"/>
 
----
-
 ### قائمة الدول
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" alt="قائمة الدول" width="200"/>
-
----
 
 ### واجهة التحقق من صلاحية الإيميل
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" alt="واجهة التحقق من صلاحية الإيميل" width="200"/>
 
----
-
 ### واجهة التحقق من الإيميل
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" alt="واجهة التحقق من الإيميل" width="200"/>
-
----
 
 ### واجهة إعداد كلمة السر
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" alt="واجهة إعداد كلمة السر" width="200"/>
 
----
-
 ### واجهة المستخدم الرئيسية للحساب
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" alt="واجهة المستخدم الرئيسية للحساب" width="200"/>
-
----
 
 ### واجهة المستخدم الرئيسية لمستخدمي جوجل وفيس بوك
 
@@ -198,4 +226,4 @@ cached_network_image: ^3.4.0
 
 ## أهمية المشروع
 
-أنا كنت مهتم جدًا بالمشروع ده، وركزت على تطبيق مبادئ SOLID في الكود بتاعي. الهدف كان إن المشروع يساعدني على تحسين مستوايا في تطوير التطبيقات وتعلّم تقنيات جديدة. المشروع ده مهم بالنسبة لي عشان بيعد نقطة انطلاق لتنمية مهاراتي في البرمجة. لو عندك أي ملاحظات أو اقتراحات لتحسين المشروع، أكون سعيد جدًا بمساعدتك! 🌟
+هذا المشروع مهم للغاية بالنسبة لي، حيث يساعدني على تحسين مهاراتي في تطوير التطبيقات وتعلم تقنيات جديدة. إذا كان لديك أي ملاحظات أو اقتراحات لتحسين المشروع، سأكون سعيدًا جدًا بمساعدتك! 🌟
