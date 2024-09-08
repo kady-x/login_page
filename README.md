@@ -131,6 +131,8 @@ cached_network_image: ^3.4.0
 
 ## لقطات الشاشة
 
+<p align="center" class="scroll" >
+
 ### واجهة المستخدم الرئيسية
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="واجهة المستخدم الرئيسية" width="200"/>
@@ -183,6 +185,7 @@ cached_network_image: ^3.4.0
 
 <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" alt="واجهة المستخدم الرئيسية لمستخدمي جوجل وفيس بوك" width="200"/>
 
+</p>
 ---
 
 ## تحميل التطبيق
