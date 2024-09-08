@@ -175,16 +175,43 @@ cached_network_image: ^3.4.0
 
 ## لقطات الشاشة
 
-<p align="center" class="grid">
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" alt="واجهة المستخدم الرئيسية" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" alt="تسجيل الدخول" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" alt="تسجيل حساب جديد" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" alt="قائمة الدول" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" alt="واجهة التحقق من صلاحية الإيميل" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" alt="واجهة التحقق من الإيميل" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" alt="واجهة إعداد كلمة السر" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" alt="واجهة المستخدم الرئيسية للحساب" width="200"/>
-  <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" alt="واجهة المستخدم الرئيسية لمستخدمي جوجل وفيس بوك" width="200"/>
+<p align="center" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
+  <div style="text-align: center;">
+    <strong>الواجهة الرئيسية</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>واجهة تسجيل الدخول</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>واجهة تسجيل حساب جديد</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>قائمة الدول</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>التحقق من صلاحية الإيميل</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>واجهة التحقق من الإيميل</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>واجهة إعداد كلمة السر</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>واجهة المستخدم الرئيسية للحساب</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg" width="200"/>
+  </div>
+  <div style="text-align: center;">
+    <strong>واجهة المستخدم الرئيسية لمستخدمي جوجل وفيس بوك</strong><br>
+    <img src="https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg" width="200"/>
+  </div>
 </p>
 
 ## تحميل التطبيق
