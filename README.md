@@ -176,6 +176,7 @@ cached_network_image: ^3.4.0
 ## لقطات الشاشة
 
 | | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
 |الواجهة الرئيسية<br><img width="200" alt="screenshot 1" src="https://github.com/kady-x/login_page/blob/main/assets/screens/1.jpeg">|واجهة تسجيل الدخول<br><img width="200" alt="screenshot 2" src="https://github.com/kady-x/login_page/blob/main/assets/screens/2.jpeg">|واجهة تسجيل حساب جديد<br><img width="200" alt="screenshot 3" src="https://github.com/kady-x/login_page/blob/main/assets/screens/3.jpeg">|
 |قائمة الدول<br><img width="200" alt="screenshot 4" src="https://github.com/kady-x/login_page/blob/main/assets/screens/4.jpeg">|التحقق من صلاحية الإيميل<br><img width="200" alt="screenshot 5" src="https://github.com/kady-x/login_page/blob/main/assets/screens/5.jpeg">|واجهة التحقق من الإيميل<br><img width="200" alt="screenshot 6" src="https://github.com/kady-x/login_page/blob/main/assets/screens/6.jpeg">|
 |واجهة إعداد كلمة السر<br><img width="200" alt="screenshot 7" src="https://github.com/kady-x/login_page/blob/main/assets/screens/7.jpeg">|واجهة المستخدم الرئيسية للحساب<br><img width="200" alt="screenshot 8" src="https://github.com/kady-x/login_page/blob/main/assets/screens/8.jpeg">|واجهة المستخدم الرئيسية لمستخدمي جوجل وفيسبوك<br><img width="200" alt="screenshot 9" src="https://github.com/kady-x/login_page/blob/main/assets/screens/9.jpeg">|
