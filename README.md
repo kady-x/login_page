@@ -205,7 +205,7 @@
 
    يمكنك العثور على أو تحميل النسخة المدعومة من التطبيق (APK) من الرابط التالي:
 
-- [تحميل التطبيق](https://github.com/kady-x/login_page/blob/main/assets/apk/app-release.apk)
+- [تحميل التطبيق](https://github.com/kady-x/login_page/releases/tag/v1.0)
 
 ---
 
