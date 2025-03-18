@@ -23,6 +23,8 @@ jobs:
         channel: stable
         flutter-version-file: pubspec.yaml
     - run: flutter --version
+    - name: Debug GitHub Actions
+      run: echo "GitHub Actions is running on $GITHUB_REF"
     - name: Install dependencies
       run: flutter pub get
     - name: Analyze project source
